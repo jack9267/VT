@@ -1,0 +1,4179 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="GENERATOR" content="Mozilla/4.6 [en] (Win98; I) [Netscape]">
+   <title>Tomb Raider II Data Formats</title>
+</head>
+<body link="#0000FF" vlink="#800080">
+<br>
+<center>
+<p><a NAME="Catalogs"></a><b><u><font size=+1>Catalogues</font></u></b></center>
+
+<p>&nbsp;&nbsp; It is always easier to build upon the work of others than
+to try and create everything from scratch.&nbsp; In order to build upon
+the works of others, however, one must know what the others' works are.&nbsp;
+What follows are catalogues of some of the fine work done by the Core level
+designers.&nbsp; These catalogues are based upon observation and subjective
+interpretation, and therefore may not be either complete or perfectly accurate.&nbsp;
+They do provide a good starting-point, however.
+<p>The catalogues included here are:
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR2ItemIDs">TR2 Item IDs</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR1EntityStates">TR1 Entity States</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR2EntityStates">TR2 Entity States</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR1Animations">TR1 Animations</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR2Animations">TR2 Animations</a>
+<br>&nbsp;&nbsp;&nbsp; <a href="#Catalogs_TR2SoundIDs">TR2 Sound IDs</a>
+<br>&nbsp;
+<p><a NAME="Catalogs_TR2ItemIDs"></a><font color="#000080"><b><u>TR2 ItemIDs:</u></b>
+<br>* = sprite sequence; others are movable mesh
+objects
+<p>&nbsp; 0: Lara
+<br>&nbsp; 1: Lara pistol animation
+<br>&nbsp; 2: Lara's ponytail
+<br>&nbsp; 3: Lara shotgun animation
+<br>&nbsp; 4: Lara auto-pistol animation
+<br>&nbsp; 5: Lara Uzi animation
+<br>&nbsp; 6: Lara M16 animation
+<br>&nbsp; 7: Lara grenade-launcher animation
+<br>&nbsp; 8: Lara harpoon-gun animation
+<br>&nbsp; 9: Lara flare animation
+<br>&nbsp;10: Lara's hips
+<br>&nbsp;11: Lara's hips
+<br>&nbsp;12: Lara's hips / Lara dagger animation
+<br>&nbsp;13: Red snowmobile (can go fast)
+<br>&nbsp;14: Boat
+<br>&nbsp;15: Doberman
+<br>&nbsp;16: Masked goon (white mask)
+<br>&nbsp;17: Masked goon (white mask)
+<br>&nbsp;18: Masked goon (black mask)
+<br>&nbsp;19: Knifethrower
+<br>&nbsp;20: Shotgun goon
+<br>&nbsp;21: Rat
+<br>&nbsp;22: Dragon
+<br>&nbsp;23: Dragon (partially decomposed)
+<br>&nbsp;24: Gondola (Venetian boat)
+<br>&nbsp;25: Shark
+<br>&nbsp;26: Yellow moray eel
+<br>&nbsp;27: Black moray eel
+<br>&nbsp;28: Barracuda / Whiskered fish (white, yellow)
+<br>&nbsp;29: Scuba diver
+<br>&nbsp;30: Gun-wielding rig worker
+<br>&nbsp;31: Gun-wielding rig worker
+<br>&nbsp;32: Stick-wielding goon
+<br>&nbsp;33: Stick-wielding goon
+<br>&nbsp;34: Flamethrower-wielding goon
+<br>&nbsp;36: Spider
+<br>&nbsp;37: Giant spider
+<br>&nbsp;38: Crow
+<br>&nbsp;39: Tiger / Snow leopard / White tiger
+<br>&nbsp;40: Marco Bartoli
+<br>&nbsp;41: Spear-wielding Guardian
+<br>&nbsp;42: Spear-wielding Guardian statue
+<br>&nbsp;43: Sword-wielding Guardian
+<br>&nbsp;44: Sword-wielding Guardian statue
+<br>&nbsp;45: Yeti
+<br>&nbsp;46: Bird monster (guards Talion)
+<br>&nbsp;47: Eagle
+<br>&nbsp;48: Mercenary
+<br>&nbsp;49: Mercenary (black ski mask)
+<br>&nbsp;50: Mercenary (black ski mask)
+<br>&nbsp;51: Black snowmobile (with guns)
+<br>&nbsp;52: Mercenary snowmobile driver
+<br>&nbsp;53: Monk with long stick
+<br>&nbsp;54: Monk with knife-end stick
+<br>&nbsp;55: Collapsible floor
+<br>&nbsp;57: Loose boards (Opera House)
+<br>&nbsp;58: Swinging sandbag / spiky ball
+<br>&nbsp;59: Spikes / Glass shards
+<br>&nbsp;60: Boulder
+<br>&nbsp;61: Disk
+<br>&nbsp;62: Wall-mounted disk shooter
+<br>&nbsp;63: Door? (Opera House)
+<br>&nbsp;64: Slamming door
+<br>&nbsp;65: Elevator
+<br>&nbsp;66: Minisub
+<br>&nbsp;67: Movable cubical block (pushable)
+<br>&nbsp;68: Movable cubical block (pushable)
+<br>&nbsp;69: Movable cubical block (pushable)
+<br>&nbsp;70: Movable cubical block (pushable)
+<br>&nbsp;71: Big bowl (Ice Palace)
+<br>&nbsp;72: Breakable window
+<br>&nbsp;73: Breakable window
+<br>&nbsp;76: Airplane propeller
+<br>&nbsp;77: Power saw
+<br>&nbsp;78: Overhead pulley hook
+<br>&nbsp;79: Sandbag / Ceiling fragments
+<br>&nbsp;80: Rolling spindle
+<br>&nbsp;81: Wall-mounted knife blade
+<br>&nbsp;82: Statue with knife blade
+<br>&nbsp;83: Multiple boulders / snowballs
+<br>&nbsp;84: Detachable icicles
+<br>&nbsp;85: Spiky movable wall
+<br>&nbsp;86: Bounce pad
+<br>&nbsp;87: Wall segment with spikes
+<br>&nbsp;88: Tibetan bell
+<br>&nbsp;89: * Boat wake (Venice, Bartoli)
+<br>&nbsp;90: * Snowmobile wake (Tibetan Foothills)
+<br>&nbsp;91: Lara and a snowmobile
+<br>&nbsp;92: Wheel doorknob
+<br>&nbsp;93: Above-water switch
+<br>&nbsp;94: Underwater propeller
+<br>&nbsp;95: Air fan
+<br>&nbsp;96: Swinging box / spiky ball
+<br>&nbsp;97: Gun-wielding rig worker / Marco Bartoli (unused?)
+<br>&nbsp;98: Goon at the fancy door holding poison bottle / Gun-wielding rig worker
+<br>&nbsp;99: Lara in cutscene
+<br>100: * Frame (for indicator bars)
+<br>101: Rolling storage drums
+<br>102: Zipline handle
+<br>103: Above-water switch
+<br>104: Underwater switch (some above-water ones)
+<br>105: Underwater switch
+<br>106: Door
+<br>107: Door
+<br>108: Door
+<br>109: Door
+<br>110: Door
+<br>111: Door
+<br>112: Door
+<br>113: Door
+<br>114: Door
+<br>115: Door
+<br>116: Door ? Bridge ? (Temple of Xian)
+<br>117: Bridge (flat)
+<br>118: Bridge (slope = 1)
+<br>119: Bridge (slope = 2)
+<br>120: Passport (opening up)
+<br>121: Stopwatch
+<br>122: Lara and butler picture
+<br>123: Goon at the fancy door / Monk
+<br>124: Airplane cockpit / Marco Bartoli
+<br>125: Fancy-door goon's gunflare / Crate lid / Minisub / Bartoli follower
+<br>126: Fancy-door goon's gun / Ceiling hook
+<br>127: Fancy-door goon's gunflare / Marco Bartoli / Lara's boot (thrown) / Bartoli follower
+<br>128: Laptop computer / Fabio / Marco Bartoli / Bartoli follower
+<br>129: Crate / Bartoli follower
+<br>130: Eros the Goon
+<br>133: Passport (closed)
+<br>134: N-thingy (Playstation memory card?)
+<br>135: * Pistols
+<br>136: * Shotgun
+<br>137: * Auto pistols
+<br>138: * Uzis
+<br>139: * Harpoon gun
+<br>140: * M16
+<br>141: * Grenade launcher
+<br>143: * Shotgun shells
+<br>144: * Auto-pistol clips
+<br>145: * Uzi clips
+<br>146: * Harpoons
+<br>147: * M16 clips
+<br>148: * Grenades
+<br>149: * Small medipack
+<br>150: * Large medipack
+<br>151: * Flares
+<br>152: Flare
+<br>153: Sunglasses
+<br>154: Portable CD player
+<br>155: Direction keys
+<br>157: Pistol
+<br>158: Shotgun
+<br>159: Auto-pistol
+<br>160: Uzi
+<br>161: Harpoon gun
+<br>162: M16
+<br>163: Grenade launcher
+<br>164: Pistol ammo(?)
+<br>165: Shotgun ammo
+<br>166: Auto-pistol ammo
+<br>167: Uzi ammo
+<br>168: Harpoons
+<br>169: M16 ammo
+<br>170: Grenades
+<br>171: Small medipack
+<br>172: Large medipack
+<br>173: Flares (opening box)
+<br>174: * Puzzle 1
+<br>175: * Puzzle 2
+<br>176: * Puzzle 3 ? [unused]
+<br>177: * Puzzle 4
+<br>178: Puzzle 1
+<br>179: Puzzle 2
+<br>180: Puzzle 3 ? [unused]
+<br>181: Puzzle 4
+<br>182: Slot 1 empty
+<br>183: Slot 2 empty
+<br>184: Slot 3 empty ? [unused]
+<br>185: Slot 4 empty
+<br>186: Slot 1 full
+<br>187: Slot 2 full
+<br>188: Slot 3 full ? [unused]
+<br>189: Slot 4 full
+<br>190: * Dragon 1
+<br>191: * Dragon 2
+<br>192: * Dragon 3
+<br>193: * Key 1
+<br>194: * Key 2
+<br>195: * Key 3
+<br>196: * Key 4
+<br>197: Key 1
+<br>198: Key 2
+<br>199: Key 3
+<br>200: Key 4
+<br>201: Lock 1
+<br>202: Lock 2
+<br>203: Lock 3
+<br>204: Lock 4
+<br>205: * Pickup 1
+<br>206: * Pickup 2
+<br>207: Pickup 1
+<br>208: Pickup 2
+<br>209: Dragon explosion effect (expanding bubble)
+<br>210: Dragon explosion effect (expanding bubble)
+<br>211: Dragon explosion effect (expanding bubble)
+<br>212: Lara's hips / Alarm
+<br>213: Lara's hips
+<br>214: Tyrannosaur
+<br>215: Lara's hips
+<br>216: Lara's hips
+<br>217: Lara's hips
+<br>218: Dragon bones
+<br>219: Dragon bones
+<br>220: * Extra Fire (Ice Palace)
+<br>222: Aquatic Mine (Venice)
+<br>223: Menu background (displayed when doing 3D-hardware rendering)
+<br>224: * Gray disk
+<br>225: Gong-hammering animation
+<br>226: Gong (Ice Palace)
+<br>227: Detonator box
+<br>228: Helicopter (Diving Area)
+<br>229: * Grenade blast
+<br>230: * Splash
+<br>231: * Bubbles
+<br>233: * Blood splatter
+<br>234: * Green-white thing (Great Wall)
+<br>235: Flare burning?
+<br>236: * Flash (looks like distant light)
+<br>238: * Bullet hit
+<br>239: * Sparkles (Floating Islands, Dragon's Lair)
+<br>240: Gunflare
+<br>241: Gunflare (spiky)
+<br>243: Lara's hips
+<br>244: Lara's hips
+<br>245: Rod?
+<br>246: * Flamethrower (repeat of grenade blast)
+<br>247: Pointer?
+<br>248: Support?
+<br>249: Rod?
+<br>250: * Sprayed particles (Diving Area, Barkhang Monastery, Temple of Xian)
+<br>252: * Fire
+<br>253: Lara's hips
+<br>254: Skybox
+<br>255: * Standard symbols
+<br>256: Monk
+<br>257: Lara's hips
+<br>259: Helicopter (The Great Wall)
+<br>260: The butler
+<br>261: * Assault-course numerals and punctuation
+<br>262: Lara's hips
+<br>263: Shotgun
+<br>264: Lara's hips
+<br>289: * Cellar artifact 1 (gold mask)
+<br>290: * Cellar artifact 2 (rounded statue)
+<br>291: * Cellar artifact 3 (flattened statue)</font>
+
+<p><a NAME="Catalogs_TR1EntityStates"></a><font color="#800000"><b><u>TR1
+Entity States</u></b>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I've
+found that the two lion types are the two sexes of lions and that the crocodiles
+and giant rats have separate types for on-land ones and swimming ones.
+Also, Lara's evil-twin mutant has only the breathing animation; its mirror-image
+behaviour is almost certainly hardcoded.&nbsp; I wonder if there is a reference-point
+object in the center of the room that this mutant lives in; there has to
+be some such point to refer the reflection to.
+<p>This contains the states of everything but Lara.
+<p>* = sprite sequence; others are movable mesh objects
+<p>&nbsp; 0: Lara
+<br>&nbsp; 1: Lara pistol animation
+<br>&nbsp; 2: Lara shotgun animation
+<br>&nbsp; 3: Lara magnum animation
+<br>&nbsp; 4: Lara Uzi animation
+<br>&nbsp; 5: Lara / Lara's home appearance / Lara
+wounded / Lara turned to gold
+<br>&nbsp; 6: Lara's evil twin mutant
+<p>&nbsp; 7: Wolf
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Jumping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Stalking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Jumping and attacking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Attacking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Lying down
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Getting ready to strike
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Running jump
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Biting
+<br>&nbsp; 8: Bear
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Walking on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Getting back to all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking on hind legs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Rearing up on hind legs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Growling?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Running and attacking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Standing on hind legs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying
+<br>&nbsp; 9: Bat
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Starting to fly
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Flying straight
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Circling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;10: Crocodile (on land)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Turning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;11: Crocodile (in water)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Swimming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Dying
+<br>&nbsp;12: Lion (male)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Leaping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Leaping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;13: Lion (female)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Leaping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Leaping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;14: Panther
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Leaping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Leaping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;15: Gorilla
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4:
+Walking on legs (attacking?)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Thumping chest
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Waving arms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Turning leftward?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Turning rightward?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Jumping up and waving arms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Climbing
+<br>&nbsp;16: Giant Rat (on land)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Jumping and Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Rearing up
+<br>&nbsp;17: Giant Rat (in water)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Swimming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Dying
+<br>&nbsp;18: Tyrannosaur
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1:
+Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Bellowing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Shaking Head and Spitting Out
+<br>&nbsp;19: Raptor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Jumping and Biting?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Bellowing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Running and bellowing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Biting
+<br>&nbsp;20: Winged mummy (unused) / Winged mutant
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Crouching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Looking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Jumping?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Clawing?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Aiming right-hand gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Aiming and firing left-hand gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Firing right-hand gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Flying
+<br>&nbsp;21: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;22: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;23: Centaur mutant
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Firing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Galloping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Rearing up
+<br>&nbsp;24: Mummy
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Falling forward
+<br>&nbsp;27: Larson
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing holding gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Injured by gunshot / Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing gun
+<br>&nbsp;28: Pierre
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming guns
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Putting guns away
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing guns
+<br>&nbsp;29: Skateboard
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Being turned around
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Stationary
+<br>&nbsp;30: Skateboard kid
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Turning and Aiming?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Firing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Skating
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Firing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;31: Cowboy
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Firing
+<br>&nbsp;32: "Mr. T"
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Firing
+<br>&nbsp;33: Winged Natla (actually, Natla with
+a winged mutant)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Flying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming and firing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: "Dying" the first time
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Spinning around in air
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying for real
+<br>&nbsp;34: Giant mutant
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Sitting on floor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Pulling self forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Slapping with right hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Slapping with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Making big wave with right hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Dropping to floor after hatching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Raising arms
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+11: Shaking victim with right hand
+<br>&nbsp;35: Collapsible floor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Shaking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Settling down
+<br>&nbsp;36: Swinging blade
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Swinging
+<br>&nbsp;37: Spikes
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;38: Boulder
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Rolling
+<br>&nbsp;39: Dart
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;40: Wall-mounted dartgun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Idle?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Firing?
+<br>&nbsp;41: Door (opens upward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On side
+<br>&nbsp;42: Slamming doors
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Open
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Closed
+<br>&nbsp;43: Sword of Damocles
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;44: Thor's hammer's handle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary in "up" position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Moving down a little and returning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Moving down all the way
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Stopped at "down" position
+<br>&nbsp;45: Thor's hammer's block
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Moving down a little and returning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Moving down all the way
+<br>&nbsp;46: Hanging ball? / Some kind of box?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;47: Metal rod? / Powered mining cart
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Moving
+<br>&nbsp;48: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;49: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;50: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;51: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;52: Movable tall block
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Moving forward?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Moving backward?
+<br>&nbsp;53: Pieces of something?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Settling down
+<br>&nbsp;54: Sword of Damocles
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;55: Above-water switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>&nbsp;56: Underwater switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>&nbsp;57: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;58: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;59: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;60: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;61: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;62: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;63: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;64: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;65: Trapdoor (opens downward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;66: Trapdoor (opens downward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>&nbsp;68: Bridge (flat)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;69: Bridge (slope = 1)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;70: Bridge (slope = 2)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;71: Passport (opening up)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;72: Compass
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;74: Cogs (animated)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Turning
+<br>&nbsp;75: Cogs (animated)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Turning
+<br>&nbsp;76: Cogs (animated)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Turning
+<br>&nbsp;77: Lara in CS / Scion holder in CS
+<br>&nbsp;78: Larson in CS / Natla in CS / Scion
+holder in CS
+<br>&nbsp;79: Larson's gun in CS / Scion in CS /
+Natla in CS
+<br>&nbsp;80: Scion in CS
+<br>&nbsp;81: Passport (closed)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;82: N-thingy (Playstation memory card?)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;83: Save crystal
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;84: * Pistols
+<br>&nbsp;85: * Shotgun
+<br>&nbsp;86: * Magnums
+<br>&nbsp;87: * Uzis
+<br>&nbsp;88: * Pistol ammo(?)
+<br>&nbsp;89: * Shotgun ammo
+<br>&nbsp;90: * Magnum ammo
+<br>&nbsp;91: * Uzi ammo
+<br>&nbsp;93: * Small medipack
+<br>&nbsp;94: * Large medipack
+<br>&nbsp;95: Sunglasses
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;96: Cassette player and headphones
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;97: Direction keys
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;99: Pistol
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>100: Shotgun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>101: Magnum
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>102: Uzi
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>103: Pistol ammo(?)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>104: Shotgun ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>105: Magnum ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>106: Uzi ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>108: Small medipack
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>109: Large medipack
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>110: * Puzzle 1
+<br>111: * Puzzle 2
+<br>112: * Puzzle 3
+<br>113: * Puzzle 4
+<br>114: Puzzle 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>115: Puzzle 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>116: Puzzle 3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>117: Puzzle 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>118: Slot 1 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>119: Slot 2 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>120: Slot 3 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>121: Slot 4 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>122: Slot 1 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>123: Slot 2 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>124: Slot 3 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>125: Slot 4 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>126: * Pickup 1
+<br>127: Pickup 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>128: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>129: * Key 1
+<br>130: * Key 2
+<br>131: * Key 3
+<br>132: * Key 4
+<br>133: Key 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>134: Key 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>135: Key 3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>136: Key 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>137: Lock 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>138: Lock 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>139: Lock 3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>140: Lock 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>143: * Scion Piece
+<br>146: Complete Scion
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>147: Scion Holder
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>150: Scion Piece
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>151: * Flare(?) / Explosion
+<br>153: * Splash
+<br>155: * Bubbles
+<br>156: * Bubbles
+<br>158: * Blood splatter
+<br>160: * Flying disk
+<br>161: Centaur statue
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>162: Shack suspended from wire rope
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Starting position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Dropping after first fuse
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Dropping after second fuse
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Dropping after third fuse (to ground)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: On the ground
+<br>163: Mutant egg and holder (normal size)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Starting to hatch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Hatching (is the fragmenting hardcoded?)
+<br>164: * Bullet hit
+<br>165: * Sparkle
+<br>166: Gunflare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>169: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>170: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>172: Mutant bullet
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>173: Mutant grenade
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>176: * Splatter
+<br>177: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>178: * Fire
+<br>179: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>180: Flowing Atlantean lava
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>181: Mutant egg and holder (big)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Starting to hatch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Hatching (is the fragmenting hardcoded?)
+<br>182: Motorboat
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stationary (initial)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Moving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Stationary (final)
+<br>183: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>189: Shrinking wedge?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>190: * Standard symbols
+<br>191: * Plant 1
+<br>192: * Plant 2
+<br>193: * Plant 3
+<br>194: * Plant 4
+<br>195: * Plant 5
+<br>200: * Bag 1
+<br>204: * Bag 2
+<br>207: Gunflare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>212: * Rock 1
+<br>213: * Rock 2
+<br>214: * Rock 3
+<br>215: * Bag 3
+<br>216: * Pottery 1
+<br>217: * Pottery 2
+<br>231: * Painted pot
+<br>233: * Inca mummy
+<br>236: * Pottery 3
+<br>237: * Pottery 4
+<br>238: * Pottery 5
+<br>239: * Pottery 6</font>
+
+
+<p><a NAME="Catalogs_TR2EntityStates"></a>
+<p><font color="#000080"><b><u>TR2 Entity States</u></b>
+<p>Comparing these to those of TR1, it seems rather difficult to map the NPC's, though
+doors and switches and stuff like that will map just fine.
+<br>
+<p>This contains the states of everything but Lara
+<p><i>Exception: Lara and the boats and snowmobiles</i>
+<p>* = sprite sequence; others are movable mesh objects
+<p>&nbsp; 0: Lara
+<br>&nbsp; 1: Lara pistol animation
+<br>&nbsp; 2: Lara's ponytail
+<br>&nbsp; 3: Lara shotgun animation
+<br>&nbsp; 4: Lara auto-pistol animation
+<br>&nbsp; 5: Lara Uzi animation
+<br>&nbsp; 6: Lara M16 animation
+<br>&nbsp; 7: Lara grenade-launcher animation
+<br>&nbsp; 8: Lara harpoon-gun animation
+<br>&nbsp; 9: Lara flare animation
+<br>&nbsp;10: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lara
+and the snowmobiles:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Driving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Climbing in from right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Starting the engine
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Stopping the engine
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Jumping upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Driving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Climbing in from left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Climbing out to left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Driving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Climbing out to right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Dying?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Thrown out of snowmobile and dying
+<br>&nbsp;11: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lara
+and the boats:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Entering
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Driving (stationary)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Driving (moving)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Jumping out rightward (starboard)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Jumping out leftward (port)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Jumping upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Dying
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Also
+has Lara hitting the gong with the hammer in the Ice Palace
+<p>&nbsp;12: Lara's hips / Lara dagger animation
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lara
+examining Dagger of Xian pulled from Bartoli dragon's belly
+<p>&nbsp;13: Red snowmobile (can go fast)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [various
+states of vibration]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Going slightly upwards
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Going off a ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+<br>&nbsp;14: Boat
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [various
+states of rocking/pitching]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3:
+<br>&nbsp;15: Doberman
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Sitting on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Standing and panting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Jumping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Jumping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Dying
+<br>&nbsp;16: Masked goon (white mask, jacket)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Standing and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Standing and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Standing and shaking head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Standing and aiming gun, bracing self
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing gun, bracing self
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Running while aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Standing and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Dying
+<br>&nbsp;17: Masked goon (white mask, vest)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Standing (animations recycled)
+<br>&nbsp;18: Masked goon (black mask)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Standing (animations recycled)
+<br>&nbsp;19: Knifethrower
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Throwing with right hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Throwing with left hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Throwing with left hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Throwing with right hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Throwing with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Throwing with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Dying
+<br>&nbsp; 20: Shotgun goon
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing, guns up
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing, guns holstered
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking, guns up
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Aiming right gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Aiming left gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing right gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Firing left gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Aiming both guns
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Firing both guns
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;21: Rat
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing on all fours
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Rearing up, biting?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Rearing up and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Dying
+<br>&nbsp;22: Dragon (front)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking, looking leftward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking, looking rightward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Rearing up
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Breathing fire in reared-up position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Back to forward position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Raising left foot
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Raising right foot
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;23: Dragon (back)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [various
+standing and walking states]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;24: Gondola (Venetian boat)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Seems
+to be static, as if animations were unused]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Fragmentation
+probably hardcoded]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4:
+<br>&nbsp;25: Shark
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Standing still
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Swimming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Swimming fast
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Shaking victim in mouth
+<br>&nbsp;26: Yellow moray eel
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Wiggling head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Dying
+<br>&nbsp;27: Black moray eel
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Wiggling head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Dying
+<br>&nbsp;28: Barracuda / Whiskered Fish (white,
+yellow)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing still
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Swimming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Swimming fast
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Dying
+<br>&nbsp;29: Scuba diver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Swimming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Treading water
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Swimming, wielding harpoon gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Swimming, wielding harpoon gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Treading water, wielding harpoon gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Treading water, firing harpoon gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying
+<br>&nbsp;30: Gun-wielding rig worker (khaki pants)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Standing with gun upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Grabbing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Crouching and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Crouching and firing gun
+<br>&nbsp;31: Gun-wielding rig worker (blue jeans)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing while wielding gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking 324
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Standing with gun pointed downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Running while firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Running and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Crouching and aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Crouching and firing gun
+<br>&nbsp;32: Stick-wielding goon
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Big sideways hit
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Hitting with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Standing, holding stick with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Running, ready for big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Standing, ready for big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Making big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Hitting with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Running, holding stick with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Stepping up
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Climbing up low ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:
+Climbing up ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15:
+Jumping down from a ledge
+<br>&nbsp;33: Stick-wielding goon (can't climb)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Big sideways hit
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Hitting with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Standing, holding stick with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Running, ready for big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Standing, ready for big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Making big hit with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Hitting with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Running, holding stick with both hands
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;34: Flamethrower-wielding goon
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running, holding nozzle horizontal
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Standing, pointing nozzle downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Firing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Firing while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Aiming while running
+<br>&nbsp;36: Spider
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Crawling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Crawling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Jumping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Jumping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;37: Giant spider
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Crawling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Crawling fast
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;38: Crow
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Flying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Flying in place
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Flying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Pecking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Pecking
+<br>39: Tiger / Snow leopard / White tiger
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Leaping
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Leaping and biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Leaping and biting
+<br>&nbsp;40: Marco Bartoli
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;41: Spear-wielding Xian Guard
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Holding spears upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Holding spears horizontal forward-right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking while pointing spears forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Running while pointing spears forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Picking up spears, pointing them backward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Pointing spears forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Pointing spears downward and back
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Pointing spears forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Walking, moving right spear forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Thrusting left spear forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Walking, moving left spear forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Thrusting right spear forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Turning spears rightward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:
+Turning spears leftward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15:
+Pulling up spears and pointing them back-downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16:
+Twirling spears over head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18:
+Getting up from statue position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19:
+Spearing victim and tossing forward
+<br>42: Spear-wielding Xian Guard statue
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [fragmenting
+probably hardcoded]
+<br>43: Sword-wielding Xian Guard
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Swinging sword back over head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Swinging sword forward over head
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Swinging sword sideways to back
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Swinging sword sideways to forward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Holding sword pointed downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Flying while holding sword
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Getting up from statue position
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Moving sword back while walking (swing over shoulder / pull back)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Moving sword forward while walking (swing forward / thrust)
+<br>44: Sword-wielding Xian Guard statue
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [fragmenting
+probably hardcoded]
+<br>45: Yeti
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Punching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Reaching and swiping downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Running and punching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Howling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Thumping chest
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Stepping up
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Climbing up a short ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Climbing up a ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Jumping down from a ledge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:
+Holding victim and waving
+<br>&nbsp;46: Bird monster (guards Talion)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Looking upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Swiping downward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Getting ready to punch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Punching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Punching
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Howling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Pulling arms out
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Getting hands together in front
+<br>&nbsp;47: Eagle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Flying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Perching?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Gliding
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Pecking
+<br>&nbsp;48: Mercenary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Aiming gun two-handed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing gun two-handed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Firing gun in a sweep
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Firing gun in continued sweep
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Aiming gun while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Aiming gun sideways
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Aiming gun while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14:
+Firing gun while walking
+<br>&nbsp;49: Mercenary (black ski mask, gray jacket)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Aiming gun while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Aiming gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Aiming gun two-handed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Firing gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Aiming gun two-handed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Firing gun while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Firing gun while walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12:
+Squatting and aiming
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13:
+Squatting and firing
+<br>&nbsp;50: Mercenary (black ski mask, brown jacket)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0:
+Standing (animations recycled)
+<br>&nbsp;51: Black snowmobile (with guns)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Idle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Moving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Turning left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Turning right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Turning left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Turning right
+<br>&nbsp;52: Mercenary snowmobile driver
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Driving (idle)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Driving (moving)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Turning left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Turning right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Turning left
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Turning right
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Dying
+<br>&nbsp;53: Monk with long stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing and wielding stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Slicing with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Twirling stick and holding out hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Stabbing forward with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Spearing with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Twirling stick overhead
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Holding stick out and running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Holding stick and putting out hand
+<br>&nbsp;54: Monk with knife-end stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing and wielding stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+4: Slicing with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Twirling stick and holding out hand
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Stabbing forward with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Spearing with stick
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Twirling stick to side and overhead
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+9: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10:
+Holding stick out and running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11:
+Holding stick and putting out hand
+<br>&nbsp;55: Collapsible floor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Shaking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Settling down
+<br>&nbsp;57: Loose boards
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Shaking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Settling down
+<br>&nbsp;58: Swinging sandbag / spiky ball
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;59: Spikes / Glass shards
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;60: Boulder
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Rolling
+<br>&nbsp;61: Disk (like dart)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;62: Wall-mounted disk shooter (like dartgun)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Idle?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Firing?
+<br>&nbsp;63: Drawbridge
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Upward
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On side
+<br>&nbsp;64: Slamming door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Open
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Closed
+<br>&nbsp;65: Elevator
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Doors closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Doors open
+<br>&nbsp;66: Minisub
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;67: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;68: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;69: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;70: Movable cubical block (pushable)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Being pulled?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Being pushed?
+<br>&nbsp;71: Big bowl (Ice Palace)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Horizontal
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Tipped
+<br>&nbsp;72: Breakable window (can shoot out)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [fragmenting
+probably hardcoded]
+<br>&nbsp;73: Breakable window (must jump through)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [fragmenting
+probably hardcoded]
+<br>&nbsp;76: Airplane propeller
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Spinning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stopped
+<br>&nbsp;77: Power saw
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Spinning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stopped
+<br>&nbsp;78: Overhead pulley hook
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;79: Sandbag / Ceiling fragments
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Settling down
+<br>&nbsp;80: Rolling spindle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Rolling
+<br>&nbsp;81: Wall-mounted knife blade
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Extended
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Pulled back
+<br>&nbsp;82: Statue with knife blade
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Pulled back
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Extended
+<br>&nbsp;83: Multiple boulders / snowballs
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Rolling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Stopped
+<br>&nbsp;84: Detachable icicles
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Attached to ceiling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Falling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: On ground
+<br>&nbsp;85: Spiky movable wall
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;86: Bounce pad
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Idle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Kicking upwards
+<br>&nbsp;87: Spiky ceiling segment
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;88: Tibetan bell
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Stationary
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Swinging
+<br>&nbsp;89: * Boat wake (Venice, Bartoli)
+<br>&nbsp;90: * Snowmobile wake (Tibetan Foothills)
+<br>&nbsp;91: Lara and a snowmobile
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;92: Wheel knob
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Parent door closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Parent door open
+<br>&nbsp;93: Above-water switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>&nbsp;94: Underwater propeller
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Spinning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stopped
+<br>&nbsp;95: Air fan
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Spinning
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Stopped
+<br>&nbsp;96: Swinging box / spiky ball
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>&nbsp;97: Gun-wielding rig worker / Marco Bartoli
+(unused?)
+<br>&nbsp;98: Goon at the fancy door holding poison
+bottle / Gun-wielding rig worker
+<br>&nbsp;99: Lara in cutscene
+<br>100: * Frame (for indicator bars)
+<br>101: Rolling storage drums
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Rolling
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Stopped
+<br>102: Zipline handle
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Moving
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Settling down
+<br>103: Above-water switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>104: Above-water/underwater switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>105: Underwater switch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Off
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: On
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[states may be reversed]
+<br>106: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>107: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>108: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>109: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>110: Door
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>111: Door (pulled upward in Temple of Xian)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>112: Door (pulled upward in Temple of Xian)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>113: Door (pulled upward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0:
+Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>114: Trapdoor (opens downward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>115: Trapdoor (opens downward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>116: Trapdoor (opens downward)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+0: Closed
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Open
+<br>117: Bridge (flat)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>118: Bridge (slope = 1)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>119: Bridge (slope = 2)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>120: Passport (opening up)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>121: Stopwatch
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>122: Lara and butler picture
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>123: Goon at the fancy door / Monk
+<br>124: Airplane cockpit / Marco Bartoli
+<br>125: Fancy-door goon's gunflare / Crate lid /
+Minisub / Bartoli follower
+<br>126: Fancy-door goon's gun / Ceiling hook
+<br>127: Fancy-door goon's gunflare / Marco Bartoli
+/ Lara's boot (thrown) / Bartoli follower
+<br>128: Laptop computer / Fabio / Marco Bartoli
+/ Bartoli follower
+<br>129: Crate / Bartoli follower
+<br>130: Eros the Goon
+<br>133: Passport (closed)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>134: N-thingy (Playstation memory card?)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>135: * Pistols
+<br>136: * Shotgun
+<br>137: * Auto pistols
+<br>138: * Uzis
+<br>139: * Harpoon gun
+<br>140: * M16
+<br>141: * Grenade launcher
+<br>143: * Shotgun shells
+<br>144: * Auto-pistol clips
+<br>145: * Uzi clips
+<br>146: * Harpoons
+<br>147: * M16 clips
+<br>148: * Grenades
+<br>149: * Small medipack
+<br>150: * Large medipack
+<br>151: * Flares
+<br>152: Flare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>153: Sunglasses
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>154: Portable CD player
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>155: Direction keys
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>157: Pistol
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>158: Shotgun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>159: Auto-pistol
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>160: Uzi
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>161: Harpoon gun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>162: M16
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>163: Grenade launcher
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>164: Pistol ammo(?)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>165: Shotgun ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>166: Auto-pistol ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>167: Uzi ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>168: Harpoons
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>169: M16 ammo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>170: Grenades
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>171: Small medipack
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>172: Large medipack
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>173: Flares (opening box)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>174: * Puzzle 1
+<br>175: * Puzzle 2
+<br>176: * Puzzle 3 ? [unused]
+<br>177: * Puzzle 4
+<br>178: Puzzle 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>179: Puzzle 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>180: Puzzle 3 ? [unused]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>181: Puzzle 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>182: Slot 1 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>183: Slot 2 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>184: Slot 3 empty ? [unused]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>185: Slot 4 empty
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>186: Slot 1 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>187: Slot 2 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>188: Slot 3 full ? [unused]
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>189: Slot 4 full
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>190: * Dragon 1
+<br>191: * Dragon 2
+<br>192: * Dragon 3
+<br>193: * Key 1
+<br>194: * Key 2
+<br>195: * Key 3
+<br>196: * Key 4
+<br>197: Key 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>198: Key 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>199: Key 3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>200: Key 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>201: Lock 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>202: Lock 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>203: Lock 3
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>204: Lock 4
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>205: * Pickup 1
+<br>206: * Pickup 2
+<br>207: Pickup 1
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>208: Pickup 2
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>209: Dragon explosion effect (expanding netted
+bubble)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>210: Dragon explosion effect (expanding netted
+bubble)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>211: Dragon explosion effect (expanding solid
+bubble)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>212: Lara's hips / Alarm
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>213: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>214: Tyrannosaur
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Standing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+3: Running
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+5: Dying
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+6: Bellowing
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+7: Biting
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+8: Shaking Head and Spitting Out
+<br>215: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>216: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>217: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>218: Dragon bones (front)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>219: Dragon bones (back)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>220: * Extra Fire (Ice Palace)
+<br>222: Aquatic Mine (Venice)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>223: Menu background (displayed when doing 3D-hardware
+rendering)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>224: * Gray disk
+<br>225: Gong-hammering animation
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>226: Gong (Ice Palace)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>227: Detonator box
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>228: Helicopter (Diving Area)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>229: * Grenade blast
+<br>230: * Splash
+<br>231: * Bubbles
+<br>233: * Blood splatter
+<br>234: * Green-white thing (Great Wall)
+<br>235: Flare burning?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>236: * Flash (looks like distant light)
+<br>238: * Bullet hit
+<br>239: * Sparkles (Floating Islands, Dragon's Lair)
+<br>240: Gunflare
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>241: Gunflare (spiky)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>243: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>244: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>245: Rod?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>246: * Flamethrower (repeat of grenade blast)
+<br>247: Pointer?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>248: Support?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>249: Rod?
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>250: * Sprayed particles (Diving Area, Barkhang
+Monastery, Temple of Xian)
+<br>252: * Fire
+<br>253: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>254: Skybox
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>255: * Standard symbols
+<br>256: Monk
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>257: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>259: Helicopter (The Great Wall)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>260: The butler
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+1: Walking
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+2: Standing
+<br>261: * Assault-course numerals and punctuation
+<br>262: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>263: Shotgun
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>264: Lara's hips
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Only
+one state]
+<br>289: * Cellar artifact 1 (gold mask)
+<br>290: * Cellar artifact 2 (rounded statue)
+<br>291: * Cellar artifact 3 (flattened statue)</font>
+<br>&nbsp;
+
+
+
+
+<p><b>These are animation identifications for TR1 and TR2</b>
+<p><b>The format of each one is:</b>
+<p><b>Number#: Identification</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Next Animation Number</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Bones1[] Opcode Identification</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sounds</b>
+
+
+<p><a NAME="Catalogs_TR1Animations"></a><font color="#800000"><b><u>TR1 Animations:</u></b>
+<p><b>Movable 0: Basic Lara</b>
+<p><b>0: Running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>1: Walking carefully</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>2: Sidestep?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>3: Sidestep?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>4: Run a bit</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>5: Run a bit</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>6: Start running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>7: Run to walk?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>8: Stop running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>9: Run half a cycle?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>10: Stop running? End a jump?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>11: Stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 103</b>
+<br><b>12: Sidestep left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>13: Sidestep right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>14:&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>15: Getting up on feet</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>16: Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>17: Into the air</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>18:&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>19: Into the air</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>20: Moving slightly leftward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21</b>
+<br><b>21: Leftward to forward?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>22: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>23: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>24: Landing, then getting up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet, then
+htting wall</b>
+<br><b>25: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying with broken bones</b>
+<br><b>26: Jump upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 27</b>
+<br><b>27: Jump upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>28: Jumping upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>29:&nbsp;&nbsp;&nbsp;&nbsp; Grabbing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>30: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>31:&nbsp;&nbsp;&nbsp;&nbsp; Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>32: Pulling herself up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33</b>
+<br><b>33: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet, then
+htting wall</b>
+<br><b>34: In the air?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35</b>
+<br><b>35: In the air?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35</b>
+<br><b>36: Jumping up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>37: Jumping up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>38: Getting to standstill</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>39: Getting to standstill</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>40: Walking backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>41: Starting to walk backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>42: Pulling herself up a ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling herself up</b>
+<br><b>43: Starting to run</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3]</b>
+<br><b>44: Sidestepping rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>45: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>46: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>47: Flipover?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48</b>
+<br><b>48: Flip-to-standing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>49: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>50: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 51</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stepping up?</b>
+<br><b>51: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>52: Starting to run</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</b>
+<br><b>53: Hitting wall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hitting wall</b>
+<br><b>54: Hitting wall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hitting wall</b>
+<br><b>55: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>56: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>57: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>58: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>59: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>60: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>61: Stepping down backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>62: Stepping down backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>63: Pulling lever</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling metal lever</b>
+<br><b>64: Pushing lever back</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Metal-lever reset (pushing
+it back)</b>
+<br><b>65: Sidestep right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 65</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>66: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>67: Sidestep left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 67</b>
+<br><b>68: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>69: Sidestep right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 69</b>
+<br><b>70: Sliding</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 70</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sliding</b>
+<br><b>71: Recovering from slide?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>72: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>73: Starting a standing jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 91</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stepping up?</b>
+<br><b>74: Jump?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>75: Backflip</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>76: Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>77: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>78: Jump Left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79</b>
+<br><b>79: Leftward Roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79</b>
+<br><b>80: Jump Right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 81</b>
+<br><b>81: Rightward Roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 81</b>
+<br><b>82: Landing on Feet after a Fall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>83: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>84: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>85: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>86: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>87: Swimming stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>88: Pushing something?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 89</b>
+<br><b>89: Jump backwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 90</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>90: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>91: Jumping upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>92: Running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>93: Fall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93</b>
+<br><b>94: Jump with getting ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>95: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>96: Grabbing a ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ledge grabbing?</b>
+<br><b>97: Pulling herself up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 102</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up</b>
+<br><b>98: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>99: Landing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 82</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>100: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>101: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>102: Stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>103: Stationary and breathing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 103</b>
+<br><b>104: Starting to slide while looking rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>105: Sliding while looking rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sliding</b>
+<br><b>106: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>107: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>108: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>109: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>110: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>111: Pulling herself out of the water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 12]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Surfacing</b>
+<br><b>112: Diving</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>113: Reverse direction underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swim and gurgle</b>
+<br><b>114: Surfacing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Catching breath and a
+splash</b>
+<br><b>115: Starting to swim</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gurgle</b>
+<br><b>116: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 116</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>117: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>118: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 116</b>
+<br><b>119: Dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>120: Ready to push/pull block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 120</b>
+<br><b>121: To standing position from push/pull</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>122: Pulling block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Final-position
+offset]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling block</b>
+<br><b>123: Pushing block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Final-position
+offset]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pushing block</b>
+<br><b>124: Dying underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 124</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3, 3]</b>
+<br><b>125: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 125</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>126: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 126</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>126: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 127</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>128: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>129: Underwater lever pull</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Underwater lever pull</b>
+<br><b>130: Picking up underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3]</b>
+<br><b>131: Pulling out and using key</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inserting key/card</b>
+<br><b>132: Dying underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 132</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>133: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 133</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Killed by flames/lava</b>
+<br><b>134: Inserting something</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inserting chip</b>
+<br><b>135: Picking something up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>136: Leftward on grabbed ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Something clicking</b>
+<br><b>137: Rightward on grabbed ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 137</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Something clicking</b>
+<br><b>138: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 138</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying</b>
+<br><b>139: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 139</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>140: Starting to tread water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 141</b>
+<br><b>141: Treading water backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 141</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>142: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>143: Treading water leftward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 143</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>144: Treading water rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 144</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>145: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 145</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying and hitting ground</b>
+<br><b>146: Starting roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 147</b>
+<br><b>147: Finishing roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 148</b>
+<br><b>148: Standing up after roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Roll over</b>
+<br><b>149: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 149</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Killed by spikes</b>
+<br><b>150: Ledge grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ledge grab?</b>
+<br><b>151: Roll over</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Roll over</b>
+<br><b>152: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>153: Dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 153</b>
+<br><b>154: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>155: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 155</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying with broken bones</b>
+<br><b>156: Starting dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>157: Starting dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>158: Swan dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>159: Handstand pull-up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 102</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up?</b>
+<p><b>Movable 1: Pistol Animations</b>
+<p><b>160: Aim pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 160</b>
+<br><b>161: Holster pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 160</b>
+<br><b>162: Pull out pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 160</b>
+<br><b>163: Aim pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 163</b>
+<p><b>Movable 2: Shotgun Animations</b>
+<p><b>164: Aim shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>165: Put shotgun back, grab shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 165</b>
+<br><b>166: Put shotgun back, grab shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>167: Put shotgun to hips</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>168: Wield shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<p><b>Movable 3: AutoPistol Animations</b>
+<p><b>169: Aim autopistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 169</b>
+<p><b>Movable 4: Uzi Animations</b>
+<p><b>170: Aim Uzis [has angry head]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 170</b></font>
+
+
+<p><a NAME="Catalogs_TR2Animations"></a><font color="#000080"><b><u>TR2 Animations:</u></b>
+<p><b>Movable 0: Basic Lara</b>
+<p><b>0: Running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>1: Walking carefully</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / treading
+water}</b>
+<br><b>2: Sidestep?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>3: Sidestep?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>4: Run a bit</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>5: Run a bit</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>6: Start running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>7: Run to walk?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>8: Stop running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>9: Run half a cycle?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>10: Stop running? End a jump?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>11: Stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 103</b>
+<br><b>12: Sidestep left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / treading
+water}</b>
+<br><b>13: Sidestep right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / treading
+water}</b>
+<br><b>14:&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {landing on feet / into
+water}</b>
+<br><b>15: Getting up on feet</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {Footstep / {}}</b>
+<br><b>16: Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump {footstep / walk
+in shallow water}</b>
+<br><b>17: Into the air</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>18:&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 19</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump {footstep / walk
+in shallow water}</b>
+<br><b>19: Into the air</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>20: Moving slightly leftward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21</b>
+<br><b>21: Leftward to forward?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / treading
+water}</b>
+<br><b>22: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>23: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>24: Landing, then getting up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {hitting wall, falling
+/ walk in water, into water}</b>
+<br><b>25: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {dying with broken bones
+/ into water}</b>
+<br><b>26: Jump upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 27</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / walk in shallow
+water}</b>
+<br><b>27: Jump upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump</b>
+<br><b>28: Jumping upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>29:&nbsp;&nbsp;&nbsp;&nbsp; Grabbing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>30: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>31:&nbsp;&nbsp;&nbsp;&nbsp; Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {landing on feet / walk
+in shallow water}</b>
+<br><b>32: Pulling herself up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33</b>
+<br><b>33: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet, hitting
+wall</b>
+<br><b>34: In the air?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35</b>
+<br><b>35: In the air?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35</b>
+<br><b>36: Jumping up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>37: Jumping up?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>38: Getting to standstill</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>39: Getting to standstill</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>40: Walking backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / treading
+water}</b>
+<br><b>41: Starting to walk backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>42: Pulling herself up a ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up {{} / surfacing}</b>
+<br><b>43: Starting to run</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3]</b>
+<br><b>44: Sidestepping rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / trading water}</b>
+<br><b>45: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>46: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>47: Flipover?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {} / Into water</b>
+<br><b>48: Flip-to-standing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {footstep / walk in shallow
+water}</b>
+<br><b>49: Falling</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>50: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 51</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up {{} / wade
+in shallow water}</b>
+<br><b>51: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>52: Starting to run</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6</b>
+<br><b>53: Hitting wall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hitting wall</b>
+<br><b>54: Hitting wall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hitting wall</b>
+<br><b>55: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>56: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>57: Stepping up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>58: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>59: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>60: Stepping down</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>61: Stepping down backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>62: Stepping down backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>63: Pulling lever</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling metal lever {{}
+/ treading water}</b>
+<br><b>64: Pushing lever back</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Metal-lever reset (pushing
+it back) {{} / treading water}</b>
+<br><b>65: Sidestep left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 65</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>66: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>67: Sidestep right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 67</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>68: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>69: Step forward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 69</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>70: Sliding</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 70</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sliding</b>
+<br><b>71: Recovering from slide?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 72</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>72: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep</b>
+<br><b>73: Starting a standing jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 91</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jump {{} / treading water}</b>
+<br><b>74: Jump?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / surfacing}</b>
+<br><b>75: Backflip</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>76: Jump</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / surfacing}</b>
+<br><b>77: Landing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>78: Jump Left</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / surfacing}</b>
+<br><b>79: Leftward Roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79</b>
+<br><b>80: Jump Right</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 81</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / surfacing}</b>
+<br><b>81: Rightward Roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 81</b>
+<br><b>82: Landing on Feet after a Fall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet {{} /
+walk shallow, into water}</b>
+<br><b>83: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>84: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>85: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>86: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>87: Swimming stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>88: Pushing something?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 89</b>
+<br><b>89: Jump backwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 90</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>90: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / treading
+water}</b>
+<br><b>91: Jumping upwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{} / surfacing}</b>
+<br><b>92: Running</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>93: Fall</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 93</b>
+<br><b>94: Jump with getting ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>95: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>96: Grabbing a ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ledge grab, pull up</b>
+<br><b>97: Pulling herself up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 102</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up</b>
+<br><b>98: Falling?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23</b>
+<br><b>99: Landing?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 82</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>100: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>101: Jump with being ready to grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 95</b>
+<br><b>102: Stationary</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>103: Stationary and breathing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 103</b>
+<br><b>104: Starting to slide while looking rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Landing on feet</b>
+<br><b>105: Sliding while looking rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 105</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sliding</b>
+<br><b>106: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Footstep {{} / walk in
+shallow water}</b>
+<br><b>107: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>108: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>109: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>110: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>111: Pulling herself out of the water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 12]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Surfacing</b>
+<br><b>112: Diving</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>113: Reverse direction underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming, gurgle</b>
+<br><b>114: Surfacing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Catching breath, surfacing</b>
+<br><b>115: Starting to swim</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gurgle</b>
+<br><b>116: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 116</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>117: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>118: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 116</b>
+<br><b>119: Dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 86</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>120: Ready to push/pull block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 120</b>
+<br><b>121: To standing position from push/pull</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>122: Pulling block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Final-position
+offset]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling block</b>
+<br><b>123: Pushing block</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Final-position
+offset]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pushing block</b>
+<br><b>124: Dying underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 124</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3, 3]</b>
+<br><b>125: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 125</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>126: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 126</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>126: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 127</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>128: Getting hurt</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt</b>
+<br><b>129: Underwater lever pull</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Underwater lever pull,
+then swimming</b>
+<br><b>130: Picking up underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3]</b>
+<br><b>131: Pulling out and using key</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inserting key/card {{}
+/ treading water}</b>
+<br><b>132: Dying underwater</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 132</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 3, 3, 3]</b>
+<br><b>133: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 133</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Killed by flames/lava
+{{} / into water}</b>
+<br><b>134: Inserting something</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Inserting chip</b>
+<br><b>135: Picking something up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Picked up something</b>
+<br><b>136: Leftward on grabbed ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 136</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Something clicking</b>
+<br><b>137: Rightward on grabbed ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 137</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Something clicking</b>
+<br><b>138: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 138</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying {{} / into water}</b>
+<br><b>139: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 139</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Getting hurt, hitting
+wall {{} / into water}</b>
+<br><b>140: Starting to tread water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 141</b>
+<br><b>141: Treading water backward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 141</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>142: Treading water</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 110</b>
+<br><b>143: Treading water leftward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 143</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>144: Treading water rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 144</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Treading water</b>
+<br><b>145: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 145</b>
+<br><b>145: Dying, hitting ground {{} / into water}</b>
+<br><b>146: Starting roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 147</b>
+<br><b>147: Finishing roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {roll over / into water}</b>
+<br><b>148: Standing up after roll</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>149: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 149</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Killed by spikes</b>
+<br><b>150: Ledge grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ledge grab</b>
+<br><b>151: Roll over</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hit the ground and roll
+{{} / into water}</b>
+<br><b>152: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>153: Dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 153</b>
+<br><b>154: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 87</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>155: Dying</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 155</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dying with broken bones
+{{} / into water}</b>
+<br><b>156: Starting dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>157: Starting dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>158: Swan dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 158</b>
+<br><b>159: Handstand pull-up</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 102</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Step point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up [attachment
+point]</b>
+<br><b>160: Starting to climb upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up, clicks, {{}
+/ wade in shallow water}</b>
+<br><b>161: Climbing upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 161</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up? {{} / clicks}</b>
+<br><b>162: Stop climbing upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>163: Stop climbing upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>164: Hold on while climbing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>165: Starting to climb upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 161</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>166: Stop climbing downward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>167: Stop climbing downward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>168: Climb downward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 168</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>169: Climb downward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 168</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>170: Climb rightward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 170</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>171: Climb leftward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 171</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>172: Hanging on to ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 173</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>173: Climbing up while holding ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 164</b>
+<br><b>174: Climbing onto ledge</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 102</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1:]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pulling up [attachment
+point, opcode 3]</b>
+<br><b>175: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>176: Wading</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>177: Wading</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wade in shallow water</b>
+<br><b>178: Wading</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>179: Starting to wade</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>180: Starting to run?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>181: Starting to run?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0</b>
+<br><b>182: Starting to jump backwards from grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 183</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 2]</b>
+<br><b>183: Jumping backwards</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>184: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>185: To standing position</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>186:</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>187: Climb upward and stop</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>188: Climb downward and stop</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>189: Throwing flare?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 189</b>
+<br><b>190: Running uphill</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 177</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>191: Pulling upward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>192: Getting onto terra firma</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>193: Getting onto terra firma</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Into water</b>
+<br><b>194: Climb down and grab</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Click</b>
+<br><b>195: Pressing two buttons?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lever pull</b>
+<br><b>196: Pressing two buttons?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lever pull</b>
+<br><b>197: Pressing button</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3: attached to
+other]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pressing button</b>
+<br><b>198: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>199: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>200: Swimming</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>201: Climb right and drop</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>202: Climb left and drop</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 96</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>203: Swimming flipover?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 205</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swimming</b>
+<br><b>204: Pick up a flare?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>205: Swimming?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>206: Grabbing a flare while swimming?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 108</b>
+<br><b>207: Half-flipover</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 209</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>208: Flipover to dive</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 153</b>
+<br><b>209: Flipover?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>210: Flipover</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 211</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>211: Landing after flip</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 75</b>
+<br><b>212: Flipover</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 213</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 6: 0]</b>
+<br><b>213: Landing after flip</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<br><b>214: Kicking</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</b>
+<br><b>215: Grabbing zipline handle</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Zipline handle grab</b>
+<br><b>216: Holding onto zipline?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 216</b>
+<br><b>217: Releasing zipline handle?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 1: Grab point]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 3]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 77</b>
+<p><b>Movable 1: Pistol Animations</b>
+<p><b>218: Aim pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 218</b>
+<br><b>219: Holster pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 218</b>
+<br><b>220: Pull out pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 218</b>
+<br><b>221: Aim pistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 221</b>
+<p><b>Movable 2: Ponytail</b>
+<p><b>[All animations hardcoded as game physics]</b>
+<p><b>Movable 3: Shotgun Animations</b>
+<p><b>222: Aim shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 224</b>
+<br><b>223: Put shotgun back, grab shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 222</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>224: Put shotgun back, grab shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 224</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Firing shotgun, then
+cocking it</b>
+<br><b>225: Put shotgun to hips</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 225</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>226: Wield shotgun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 222</b>
+<p><b>Movable 4: AutoPistol Animations</b>
+<p><b>227: Aim autopistols</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 227</b>
+<p><b>Movable 5: Uzi Animations</b>
+<p><b>228: Aim Uzis [has angry head]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 228</b>
+<p><b>Movable 6: M16 Animations</b>
+<p><b>229: M16 on back, aiming another M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 231</b>
+<br><b>230: Put M16 back, grab M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 229</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>231: Fire M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 231</b>
+<br><b>232: Put M16 back, grab M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 232</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>233: Turn M16 away</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 229</b>
+<br><b>234: Aim M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 236</b>
+<br><b>235: Turn M16 away</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 234</b>
+<br><b>236: Aim and fire M16</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 236</b>
+<p><b>Movable 7: Grenade-launcher animations</b>
+<p><b>237: Put grenade launcher away, aim GL</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 238</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>238: Aim grenade launcher</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 240</b>
+<br><b>239: Get grenade for launcher</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 240</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grenade settling, entering</b>
+<br><b>240: Fire grenade launcher</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 239</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Grenade-launcher firing</b>
+<br><b>241: Turning grenade launcher away</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 238</b>
+<br><b>242: Put grenade launcher away, then wield it</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 242</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<p><b>Movable 8: Harpoon-gun animations</b>
+<p><b>243: Harpoon gun on back; aiming another HG</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 245</b>
+<br><b>244: Put harpoon gun back, grab HG</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 243</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>245: Fire harpoon gun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 245</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Harpoon ricochet</b>
+<br><b>246: Put harpoon gun back; grab HG</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 243</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Holstering guns</b>
+<br><b>247: Turn harpoon gun away</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 243</b>
+<br><b>248: Reload harpoon gun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 243</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {harpoon reload / underwater
+harpoon reload}</b>
+<br><b>249: Pointing harpoon gun forward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 251</b>
+<br><b>250: Turning harpoon gun away from forward</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 249</b>
+<br><b>251: Fire harpoon gun</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 251</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fire harpoon</b>
+<br><b>252: Put harpoon gun back; grab HG</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 252</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<br><b>253: Put harpoon gun back; grab HG</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 253</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [Opcode 4]</b>
+<p><b>Movable 9: Flare animations</b>
+<p><b>254: Holding flare</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 254</b>
+<br><b>255: Pulling flare out?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 255</b>
+<br><b>256: Pulling flare out?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 257</b>
+<br><b>257: Lighting flare?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 254</b>
+<br><b>258: Lighting flare?</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 254</b>
+<p><b>Movable 10:</b>
+<p><b>259: Standing</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 259</b>
+<br><b>260: Being tossed about (Lara getting killed by tyrannosaur?)</b>
+<br><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 260</b></font>
+
+
+<p><p>
+<p><a NAME="Catalogs_TR2SoundIDs"></a><font color="#000080"><b><u>TR2 Sound
+IDs</u></b>
+<p><b>The first number is the sound's index in "SoundMap"; TR2 appears
+to be completely consistent here.</b>
+<p><b>The second number is the sound's index in the file MAIN.SFX</b>
+<p><b>A short description follows, and if the sound is a member of a set,
+then a "--" and then how many are in that set. Thus, Lara's footsteps are
+a set of 4 sounds.</b>
+<br>&nbsp;
+<p>0000 -- 0000 -- Footstep -- 4
+<br>0001 -- 0004 -- Lara grunt
+<br>0002 -- 0005 -- Lara "no"
+<br>0003 -- 0006 -- Lara sliding
+<br>0004 -- 0007 -- Lara landing on feet
+<br>0005 -- 0008 -- Lara grunt (pulling up)
+<br>0006 -- 0009 -- Lara unholstering pistols/magnums/UZIs
+<br>0007 -- 0010 -- Lara holstering pistols/magnums/UZIs
+<br>0008 -- 0011 -- Lara firing pistols
+<br>0009 -- 0012 -- Lara cocking shotgun/pistol
+<br>0010 -- 0013 -- Bullet ricochet -- 2
+<br>0011 -- 0015 -- Lara lighting flare
+<br>0012 -- 0016 -- Flare burning
+<br>0013 -- ----
+<br>0014 -- ----
+<br>0015 -- 0017 -- Harpoon ricochet
+<br>0016 -- 0018 -- Harpoon reload
+<br>0017 -- 0019 -- Walk in shallow water -- 4
+<br>0018 -- 0023 -- Wade in shallow water -- 2
+<br>0019 -- ----
+<br>0020 -- 0025 -- Lara treading water
+<br>0021 -- 0026 -- Lara firing magnums
+<br>0022 -- 0027 -- Harpoon reload (underwater?)
+<br>0023 -- 0028 -- Fire harpoon (underwater)
+<br>0024 -- 0029 -- Massive crash
+<br>0025 -- 0030 -- Lara pressing button
+<br>0026 -- 0031 -- Lara moan (pulling up)
+<br>0027 -- 0032 -- Lara grunt (hitting wall) -- 2
+<br>0028 -- 0034 -- Click (?) -- 2
+<br>0029 -- 0036 -- Lara grunt (jumping)
+<br>0030 -- 0037 -- Lara scream (falling)
+<br>0031 -- 0038 -- Lara getting hurt -- 2
+<br>0032 -- 0040 -- Lara roll
+<br>0033 -- 0041 -- Splash (Lara into water)
+<br>0034 -- 0042 -- Splash (Lara surfacing)
+<br>0035 -- 0043 -- Switch (Lara underwater)
+<br>0036 -- 0044 -- Lara catching breath
+<br>0037 -- 0045 -- Underwater gurgle
+<br>0038 -- 0046 -- Lara pulling metal lever
+<br>0039 -- 0047 -- Lara inserting key/card
+<br>0040 -- 0048 -- Lara inserting chip/pryr-whl/scroll/gem/etc.
+<br>0041 -- 0049 -- Lara dying 1
+<br>0042 -- 0050 -- Lara dying 2
+<br>0043 -- 0051 -- Lara firing Uzis
+<br>0044 -- 0052 -- Gunshot echo?
+<br>0045 -- 0053 -- Lara firing shotgun
+<br>0046 -- 0054 -- Lara grunt (starting to push block)
+<br>0047 -- 0055 -- Lara grunt (pushing block) -- 3
+<br>0048 -- 0058 -- Click (?)
+<br>0049 -- 0059 -- Something hitting Lara?
+<br>0050 -- 0060 -- Bullet hitting Lara?
+<br>0051 -- 0061 -- Lara "heh!" (pulling up?)
+<br>0052 -- 0062 -- Lara treading water
+<br>0053 -- 0063 -- Lara's bones breaking (dying)
+<br>0054 -- 0064 -- Ledge grab by Lara?
+<br>0055 -- 0065 -- Lara "oomph!" (hitting wall after grabbing ledge)
+<br>0056 -- 0066 -- Footstep/ledge shimmy by Lara?
+<br>0057 -- 0067 -- Metal-lever reset
+<br>0058 -- 0068 -- Glass breaking
+<br>0059 -- 0069 -- Waterfall and gurgle
+<br>0060 -- 0060 -- Underwater ambience
+<br>0061 -- 0071 -- Underwater level pull
+<br>0062 -- 0072 -- Lara "aha!" (picked up something)
+<br>0063 -- 0073 -- Block sliding
+<br>0064 -- 0074 -- Door opening
+<br>0065 -- 0075 -- Something swinging
+<br>0066 -- 0076 -- Brittle ground
+<br>0067 -- 0077 -- Brittle ground breaking away/falling
+<br>0068 -- 0078 -- Brittle ground hitting solid ground
+<br>0069 -- 0079 -- Enemy footstep -- 3
+<br>0070 -- 0082 -- Enemy grunt (climbing up something)
+<br>0071 -- 0083 -- Enemy hitting Lara 1
+<br>0072 -- 0084 -- Enemy hitting Lara 2
+<br>0073 -- 0085 -- Enemy groan (dying)
+<br>0074 -- 0086 -- Enemy growl
+<br>0075 -- 0087 -- Enemy grunt (climbing up something?)
+<br>0076 -- 0088 -- Enemy grunt (climbing up something?)
+<br>0077 -- 0089 -- ?
+<br>0078 -- 0090 -- Lara firing M-16
+<br>0079 -- 0091 -- Waterfall
+<br>0080 -- 0092 -- Sword statue (drop)
+<br>0081 -- 0093 -- Sword statue (lift)
+<br>0082 -- 0094 -- Metal gate open
+<br>0083 -- 0095 -- Metal gate close
+<br>0084 -- 0096 -- Pop?
+<br>0085 -- 0097 -- Enemy body hitting ground (dying) -- 3
+<br>0086 -- 0100 -- Dog bark 1
+<br>0087 -- 0101 -- Footstep? -- 3
+<br>0088 -- 0104 -- Dog bark 2
+<br>0089 -- 0105 -- Dog yelp (dying) -- 3
+<br>0090 -- 0108 -- Dog pant
+<br>0091 -- 0109 -- Footstep? -- 3
+<br>0092 -- 0112 -- Leopard growl 1
+<br>0093 -- 0113 -- Leopard snarl
+<br>0094 -- 0114 -- Leopard growl 2
+<br>0095 -- 0115 -- Leopard growl-twitch (dying)
+<br>0096 -- 0116 -- Leopard growl 3
+<br>0097 -- 0117 -- Rat squeak -- 2
+<br>0098 -- 0119 -- Rat squeal (dying)
+<br>0099 -- 0120 -- Tiger growl 1
+<br>0100 -- 0121 -- Tiger growl 2
+<br>0101 -- 0122 -- Tiger growl 3
+<br>0102 -- 0123 -- Tiger dying
+<br>0103 -- 0124 -- Tiger growl 4
+<br>0104 -- 0125 -- Echo?
+<br>0105 -- 0126 -- Explosion -- 2
+<br>0106 -- 0128 -- Growl?
+<br>0107 -- 0129 -- Footstep?
+<br>0108 -- 0130 -- Menu-option movement
+<br>0109 -- 0131 -- Menu option: Lara's home
+<br>0110 -- ----
+<br>0111 -- 0132 -- Menu/menu-option popup
+<br>0112 -- 0133 -- Menu-option escape
+<br>0113 -- 0134 -- Menu-option select?
+<br>0114 -- 0135 -- Menu-option select
+<br>0115 -- 0136 -- Menu game-page turn
+<br>0116 -- 0137 -- Lara sigh ("The-e-ere!") from recharge
+<br>0117 -- 0138 -- Enemy footstep (clicking) -- 4
+<br>0118 -- 0142 -- Enemy firing gun with silencer -- 2
+<br>0119 -- 0144 -- Enemy "ah!" (dying)
+<br>0120 -- 0145 -- Enemy "oo!" (dying)
+<br>0121 -- 0146 -- Enemy punch?
+<br>0122 -- 0147 -- Spider moving
+<br>0123 -- 0148 -- Grenade launcher load (grenade entering)
+<br>0124 -- 0149 -- Grenade launcher load (grenade settling)
+<br>0125 -- 0150 -- Fire grenade launcher
+<br>0126 -- 0151 -- Spider biting Lara?
+<br>0127 -- 0152 -- Spiked metal door slide
+<br>0128 -- 0153 -- Spiked metal door close
+<br>0129 -- 0154 -- Eagle squawk
+<br>0130 -- 0155 -- Eagle-wing flap
+<br>0131 -- 0156 -- Eagle dying squawk
+<br>0132 -- 0157 -- Crow "grok!"
+<br>0133 -- 0158 -- Crow-wing flap
+<br>0134 -- 0159 -- Crow "grak!"
+<br>0135 -- 0160 -- Crunch?
+<br>0136 -- 0161 -- Enemy gun cock?
+<br>0137 -- 0162 -- Enemy gunshot?
+<br>0138 -- 0163 -- ?
+<br>0139 -- 0164 -- ?
+<br>0140 -- 0165 -- Heavy breathing (?)
+<br>0141 -- 0166 -- Enemy chuckling (after killing Lara)
+<br>0142 -- 0167 -- Monk "poy-yaw!"
+<br>0143 -- 0168 -- Monk "awu!" (dying?)
+<br>0144 -- ----
+<br>0145 -- 0169 -- Lara "oi-ah!" (killed by spikes)
+<br>0146 -- 0170 -- Lara groan (killed by flames/lava)
+<br>0147 -- 0171 -- Boulder(s)/oildrum(s)/snowballs/etc. rolling
+<br>0148 -- 0172 -- Sandbag snapping
+<br>0149 -- 0173 -- Sandbag/? hitting ground
+<br>0150 -- 0174 -- Burning
+<br>0151 -- ----
+<br>0152 -- 0175 -- Snowmobile start
+<br>0153 -- 0176 -- Snowmobile idle
+<br>0154 -- 0177 -- Snowmobile accelerate
+<br>0155 -- 0178 -- Snowmobile (high engine RPM)
+<br>0156 -- 0179 -- Snowmobile shut off
+<br>0157 -- 0180 -- Enemy gunshot
+<br>0158 -- 0181 -- Enemy groan (dying)
+<br>0159 -- 0182 -- Enemy heavy breathing
+<br>0160 -- 0183 -- Click?
+<br>0161 -- 0184 -- Floor trapdoor open
+<br>0162 -- 0185 -- Floor trapdoor close
+<br>0163 -- 0186 -- Yeti growl -- 2
+<br>0164 -- 0188 -- Yeti chest beat
+<br>0165 -- 0189 -- Yeti ?
+<br>0166 -- 0190 -- Yeti grunt and chest beat
+<br>0167 -- 0191 -- Yeti scream
+<br>0168 -- 0192 -- Yeti scream (dying)
+<br>0169 -- 0193 -- Yeti growl 1
+<br>0170 -- 0194 -- Yeti growl 2
+<br>0171 -- 0195 -- Yeti grunt
+<br>0172 -- 0196 -- Yeti growl 3
+<br>0173 -- 0197 -- Yeti footstep -- 2
+<br>0174 -- 0199 -- Enemy heavy breathing
+<br>0175 -- 0200 -- Enemy flamethrower flame
+<br>0176 -- 0201 -- Enemy flamethrower reset?
+<br>0177 -- 0202 -- Enemy flamethrower cycle?
+<br>0178 -- 0203 -- Enemy groan (dying?)
+<br>0179 -- 0204 -- Enemy flamethrower pack echo (dying)
+<br>0180 -- 0205 -- Enemy belt(?) jingle
+<br>0181 -- 0206 -- Wrench "ching" (enemy)
+<br>0182 -- 0207 -- Footstep?
+<br>0183 -- 0208 -- Footstep/Lara hit?
+<br>0184 -- 0209 -- Enemy cocking shotgun
+<br>0185 -- ----
+<br>0186 -- 0210 -- Underwater?
+<br>0187 -- ----
+<br>0188 -- 0211 -- Scuba-diver airflow
+<br>0189 -- ----
+<br>0190 -- 0212 -- Pulley crane-block movement
+<br>0191 -- 0213 -- Curtain open/close
+<br>0192 -- 0214 -- enemy grunt (scuba; dying?)
+<br>0193 -- 0215 -- Underwater?
+<br>0194 -- 0216 -- Boat start
+<br>0195 -- 0217 -- Boat idle
+<br>0196 -- 0218 -- Boat accelerate
+<br>0197 -- 0219 -- Boat (high engine RPM)
+<br>0198 -- 0220 -- Boat shut off
+<br>0199 -- 0221 -- Boat (engine hit)
+<br>0200 -- 0222 -- Boat (body hit)
+<br>0201 -- 0223 -- Clatter 1
+<br>0202 -- 0224 -- Clatter 2
+<br>0203 -- 0225 -- Clatter 3
+<br>0204 -- 0226 -- Door slide
+<br>0205 -- 0227 -- Lara flesh wound -- 2
+<br>0206 -- 0229 -- saw (high RPM)
+<br>0207 -- 0230 -- saw switched off
+<br>0208 -- 0231 -- Bell chime
+<br>0209 -- 0232 -- ? creaking/hitting something
+<br>0210 -- 0233 -- ? swinging
+<br>0211 -- 0234 -- ? breaking?
+<br>0212 -- 0235 -- Pulley movement
+<br>0213 -- 0236 -- Airplane engine idle
+<br>0214 -- ----
+<br>0215 -- 0237 -- Underwater fan
+<br>0216 -- ----
+<br>0217 -- 0238 -- Vent fan
+<br>0218 -- 0239 -- Rope swing
+<br>0219 -- 0240 -- Jump pad 1
+<br>0220 -- 0241 -- Jump pad 2
+<br>0221 -- 0242 -- Something breaking?
+<br>0222 -- 0243 -- ball/rock/snowballs/etc rolling
+<br>0223 -- 0244 -- ball/rock/snowballs/etc settling
+<br>0224 -- 0245 -- ?
+<br>0225 -- 0246 -- Crash?
+<br>0226 -- 0247 -- Crash?
+<br>0227 -- 0248 -- Something rolling
+<br>0228 -- 0249 -- Something hitting wall/settling
+<br>0229 -- 0250 -- Blade slice-hit
+<br>0230 -- 0251 -- Blade "ching"
+<br>0231 -- 0252 -- Rolling spike-wheel
+<br>0232 -- 0253 -- Kill of something?
+<br>0233 -- 0254 -- blade cutting into Lara?
+<br>0234 -- 0255 -- Rotating-handle loosen
+<br>0235 -- 0256 -- Rotating-handle turn
+<br>0236 -- 0257 -- Rotating-handle door-latch open
+<br>0237 -- 0258 -- Rotating-handle door creak and latch
+<br>0238 -- 0259 -- Monk? footstep -- 4
+<br>0239 -- 0263 -- Monk sword swing (single)
+<br>0240 -- 0264 -- Monk sword swing (multi)
+<br>0241 -- 0265 -- Monk shout 1 -- 3
+<br>0242 -- 0268 -- Monk shout 2 -- 3
+<br>0243 -- 0271 -- Monk dying? -- 3
+<br>0244 -- 0274 -- Monk hurt? -- 3
+<br>0245 -- 0277 -- Crunch? -- 2
+<br>0246 -- 0279 -- Enemy, "haye"
+<br>0247 -- 0280 -- Splash (surfacing)
+<br>0248 -- 0281 -- Waterfall
+<br>0249 -- 0282 -- Footstep in snow -- 3
+<br>0250 -- 0285 -- Gunshot?
+<br>0251 -- 0286 -- Enemy gunshot
+<br>0252 -- 0287 -- Enemy "ahaga-hoog-uh!" (dying)
+<br>0253 -- 0288 -- Enemy grunt (dying?)
+<br>0254 -- 0289 -- Shooting-circle blade
+<br>0255 -- 0290 -- Footstep? -- 4
+<br>0256 -- 0294 -- Monk "oye!"
+<br>0257 -- 0295 -- Monk "aweh!"
+<br>0258 -- 0296 -- Shooting circle blade hit
+<br>0259 -- 0297 -- Warrior footstep
+<br>0260 -- 0298 -- Monk blade swing? -- 3
+<br>0261 -- 0301 -- Monk? blade swing
+<br>0262 -- 0302 -- Warrior growl -- 2
+<br>0263 -- 0304 -- Knifethrower hiccup
+<br>0264 -- 0305 -- Warrior burp, "wuuhh!"? -- 3
+<br>0265 -- 0308 -- Warrior growl-burp?
+<br>0266 -- ----
+<br>0267 -- 0309 -- Warrior awaken
+<br>0268 -- 0310 -- Warrior growl-burp?
+<br>0269 -- 0311 -- Lever pull
+<br>0270 -- ----
+<br>0271 -- ----
+<br>0272 -- ----
+<br>0273 -- ----
+<br>0274 -- ----
+<br>0275 -- ----
+<br>0276 -- ----
+<br>0277 -- ----
+<br>0278 -- 0312 -- Chain pulley
+<br>0279 -- 0313 -- Lara zipline handle grab
+<br>0280 -- 0314 -- Lara zipline slide
+<br>0281 -- 0315 -- Lara zipline handle hit
+<br>0282 -- 0316 -- Body slump?
+<br>0283 -- 0317 -- ? body crunch
+<br>0284 -- 0318 -- ?
+<br>0285 -- 0319 -- Crunch?
+<br>0286 -- 0320 -- Sliding door open
+<br>0287 -- 0321 -- Sliding door open
+<br>0288 -- 0322 -- Water something
+<br>0289 -- 0323 -- ?
+<br>0290 -- 0324 -- ?
+<br>0291 -- 0325 -- Talion guardian scream
+<br>0292 -- 0326 -- ? gasp, growl -- 3
+<br>0293 -- 0329 -- Talion guardian hoarse breathing
+<br>0294 -- 0330 -- Talion guardian footstep
+<br>0295 -- 0331 -- Talion guardian scream (dying)
+<br>0296 -- 0332 -- Large spider
+<br>0297 -- 0333 -- Helicopter
+<br>0298 -- 0334 -- Dragon footstep
+<br>0299 -- 0335 -- Dragon growl 1
+<br>0300 -- 0336 -- Dragon growl 2
+<br>0301 -- 0337 -- Dragon body fall
+<br>0302 -- 0338 -- Dragon dying breath
+<br>0303 -- 0339 -- Dragon growl 3
+<br>0304 -- 0340 -- Dragon grunt
+<br>0305 -- 0341 -- Dragon fire-breathing
+<br>0306 -- 0342 -- Dragon leg lift
+<br>0307 -- 0343 -- Dragon leg hit
+<br>0308 -- 0344 -- Warrior blade swing -- 2
+<br>0309 -- 0346 -- Warrior blade swing (fast)
+<br>0310 -- ----
+<br>0311 -- 0347 -- Warrior breath?
+<br>0312 -- 0348 -- Warrior hover
+<br>0313 -- 0349 -- Warrior landing
+<br>0314 -- 0350 -- Warrior? blade hit
+<br>0315 -- 0351 -- Warrior? blade slice -- 2
+<br>0316 -- 0353 -- Birds chirping -- 2
+<br>0317 -- 0355 -- ? crunch
+<br>0318 -- 0356 -- ? crunch -- 3
+<br>0319 -- 0359 -- Door creak and close
+<br>0320 -- 0360 -- ? breaking
+<br>0321 -- 0361 -- Large spider snarl
+<br>0322 -- 0362 -- Large spider footstep -- 4
+<br>0323 -- 0366 -- Large spider snarl (dying)
+<br>0324 -- 0367 -- Dragon growl
+<br>0325 -- 0368 -- Dragon/T-Rex footstep
+<br>0326 -- 0369 -- Dragon/T-Rex growl 1
+<br>0327 -- 0370 -- Dragon/T-Rex growl 2
+<br>0328 -- ----
+<br>0329 -- 0371 -- Water drip -- 3
+<br>0330 -- 0374 -- Stage-backdrop move
+<br>0331 -- 0375 -- Stone door slide
+<br>0332 -- 0376 -- Platform alarm (Star-Trek-like)
+<br>0333 -- 0377 -- Lara's grandfather clock tick
+<br>0334 -- 0378 -- Lara's house front door chime
+<br>0335 -- 0379 -- Lara's house alarm
+<br>0336 -- 0380 -- ? Boat racing
+<br>0337 -- 0381 -- ? Water
+<br>0338 -- 0382 -- ?
+<br>0339 -- 0383 -- ?
+<br>0340 -- 0384 -- ?
+<br>0341 -- 0385 -- ?
+<br>0342 -- 0386 -- ?
+<br>0343 -- 0387 -- hit?
+<br>0344 -- 0388 -- Butler sounds 1 -- 5
+<br>0345 -- 0393 -- Butler sounds 2 -- 4
+<br>0346 -- 0397 -- Butler sounds 3 -- 2
+<br>0347 -- 0399 -- Butler cup clatter -- 2
+<br>0348 -- 0401 -- Brittle ground breaking
+<br>0349 -- 0402 -- Spider explode (dying)/Lara bullet hit?
+<br>0350 -- 0403 -- Shark bite
+<br>0351 -- 0404 -- Lava
+<br>0352 -- 0405 -- Loud hit?
+<br>0353 -- 0406 -- Unwelcome guests at Lara's home
+<br>0354 -- 0407 -- Zipper?
+</font>
+</body>
+</html>

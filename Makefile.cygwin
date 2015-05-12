@@ -1,0 +1,3 @@
+MINGW_OBJS=/usr/lib/mingw/CRT_fp8.o
+
+include Makefile

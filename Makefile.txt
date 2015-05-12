@@ -1,0 +1,32 @@
+OBJS = src/debug.o src/dyngl.o src/test.o src/util.o src/glmath.o
+OBJS += src/l_common.o src/l_main.o src/l_tr1.o src/l_tr2.o src/l_tr3.o src/l_tr4.o src/l_tr5.o
+OBJS += src/vt_level.o
+
+TARGET = vt
+
+CC = gcc
+CPP = g++
+CFLAGS = -g -D_DEBUG -Wall -O2 $(shell sdl-config --cflags) #-DNDEBUG
+CPPFLAGS = $(CFLAGS)
+LIBS = $(shell sdl-config --libs) -lz
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CPP) $(CFLAGS) $(LFLAGS) -o $(TARGET) $(OBJS) $(MINGW_OBJS) $(LIBS)
+
+clean:
+	rm -f $(TARGET) src/*.o
+
+INDENT_OPTS = -bad -bap -br -brs
+INDENT_OPTS += -ce -cdw -i8 -l0 -lp -lps
+INDENT_OPTS += -nbc -nfca -nbfda -ncs -nip -npcs -npro -nprs -npsl
+INDENT_OPTS += -saf -sai -saw -ss -ts8 -ut
+
+INDENT_OPTS += -Tbit8 -Tbitu8 -Tbit16 -Tbitu16 -Tbit32 -Tbitu32
+INDENT_OPTS += -TVector -TScalar -Tstd -TTR_Level -TtrxReadError
+
+INDENT_FILES = `find src/*.cpp src/*.c src/*.h`
+
+indent:
+	indent $(INDENT_OPTS) $(INDENT_FILES)
